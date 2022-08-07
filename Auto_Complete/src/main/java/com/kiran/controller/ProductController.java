@@ -19,7 +19,6 @@ public class ProductController {
 	//@RequestMapping(method = RequestMethod.GET)
 	@RequestMapping("/")
 	public String index() {
-		System.out.println("kkkkkkkkkkkkkkkkkkkkk");
 		return "index";
 	}
 
